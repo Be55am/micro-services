@@ -22,7 +22,7 @@ public class CurrencyExchangeController {
     @GetMapping("/currency-exchange/from/{from}/to/{to}")
     public ExchangeValue retrieveExchangeValue(@PathVariable String from ,@PathVariable String to){
         Optional<ExchangeValue> exchangeValue = repository.findByFromAndTo(from,to);
-        exchangeValue.get().setPort(2);
+        exchangeValue.get().setPort(Integer.parseInt(environment.getProperty("local.server.port")));
         return exchangeValue.get();
     }
 }
