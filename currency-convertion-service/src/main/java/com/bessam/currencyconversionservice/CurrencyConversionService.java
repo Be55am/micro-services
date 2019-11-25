@@ -1,0 +1,14 @@
+package com.bessam.currencyconversionservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+
+@SpringBootApplication
+public class CurrencyConversionService {
+
+    public static void main(String[] args) {
+        SpringApplication.run(CurrencyConversionService.class, args);
+    }
+
+}

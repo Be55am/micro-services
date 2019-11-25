@@ -72,6 +72,7 @@
         <module>limits-service</module>
         <module>spring-cloud-config-server</module>
         <module>currency-exchange-service</module>
+        <module>currency-convertion-service</module>
     </modules>
 
 

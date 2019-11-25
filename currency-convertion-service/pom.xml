@@ -7,6 +7,10 @@
         <groupId>com.bessam</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>currency-convertion-service</artifactId>
+
 
     <dependencies>
         <dependency>
@@ -16,14 +20,6 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
         </dependency>
 
     </dependencies>
@@ -39,10 +35,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <modelVersion>4.0.0</modelVersion>
-
-    <artifactId>currency-exchange-service</artifactId>
 
 
 </project>
