@@ -74,6 +74,7 @@
         <module>currency-exchange-service</module>
         <module>currency-convertion-service</module>
         <module>netflix-eurika-naming-server</module>
+        <module>google-service</module>
     </modules>
 
 
